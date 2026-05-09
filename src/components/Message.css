@@ -1,0 +1,7 @@
+.message { display: flex; gap: 8px; align-items: flex-end; margin-bottom: 10px; }
+.message--bot { flex-direction: row; }
+.message--user { flex-direction: row-reverse; }
+.message__avatar { width: 30px; height: 30px; border-radius: 50%; background: #1D9E75; color: #fff; font-size: 10px; font-weight: 600; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.message__bubble { max-width: 75%; padding: 10px 14px; border-radius: 16px; font-size: 14px; line-height: 1.5; }
+.message--bot .message__bubble { background: #f0f0f0; color: #111; border-radius: 4px 16px 16px 16px; }
+.message--user .message__bubble { background: #1D9E75; color: #fff; border-radius: 16px 4px 16px 16px; }
