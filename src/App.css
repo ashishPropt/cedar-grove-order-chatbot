@@ -1,0 +1,17 @@
+.app { display: flex; justify-content: center; align-items: center; min-height: 100vh; padding: 20px; background: #f0f0f0; }
+
+.chatwindow { width: 100%; max-width: 480px; height: 640px; border-radius: 16px; border: 1px solid #e0e0e0; background: #fff; display: flex; flex-direction: column; overflow: hidden; box-shadow: 0 2px 16px rgba(0,0,0,0.08); }
+
+.chatwindow__header { display: flex; align-items: center; gap: 10px; padding: 14px 18px; border-bottom: 1px solid #eee; background: #fff; }
+
+.chatwindow__avatar { width: 36px; height: 36px; border-radius: 50%; background: #1D9E75; color: #fff; font-size: 11px; font-weight: 700; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+
+.chatwindow__name { font-size: 15px; font-weight: 600; color: #111; margin: 0; line-height: 1.2; }
+
+.chatwindow__sub { font-size: 12px; color: #888; }
+
+.chatwindow__messages { flex: 1; overflow-y: auto; padding: 16px; display: flex; flex-direction: column; gap: 4px; }
+
+.chatwindow__footer { padding: 10px 14px; border-top: 1px solid #eee; }
+
+.chatwindow__input { width: 100%; border: 1px solid #ddd; border-radius: 22px; padding: 9px 16px; font-size: 13px; background: #f8f8f8; color: #aaa; outline: none; cursor: default; }
