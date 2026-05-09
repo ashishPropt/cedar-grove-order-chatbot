@@ -1,0 +1,10 @@
+.chip-selector { display: flex; flex-direction: column; gap: 8px; align-self: flex-start; max-width: 90%; margin-bottom: 4px; }
+.chip-selector__hint { font-size: 11px; color: #888; }
+.chip-selector__chips { display: flex; flex-wrap: wrap; gap: 7px; }
+.chip { padding: 7px 14px; border-radius: 20px; border: 1px solid #ddd; background: #fff; color: #333; font-size: 13px; cursor: pointer; transition: background 0.15s, border-color 0.15s; }
+.chip:hover:not(:disabled) { background: #f0f0f0; border-color: #bbb; }
+.chip--selected { background: #e1f5ee; border-color: #1D9E75; color: #085041; }
+.chip:disabled { opacity: 0.5; cursor: default; }
+.chip-selector__confirm { align-self: flex-start; padding: 8px 18px; border-radius: 20px; border: none; background: #1D9E75; color: #fff; font-size: 13px; font-weight: 600; cursor: pointer; }
+.chip-selector__confirm:hover:not(:disabled) { background: #0F6E56; }
+.chip-selector__confirm:disabled { opacity: 0.5; cursor: default; }
